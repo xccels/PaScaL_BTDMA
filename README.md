@@ -103,5 +103,4 @@ not treated as a reproduced numerical or performance result.
 
 ## License
 
-A distribution license has not yet been selected.  The copyright holder must
-choose and add the final license before public release.
+PaScaL_BTDMA is distributed under the MIT License.
