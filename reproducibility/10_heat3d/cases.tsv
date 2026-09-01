@@ -1,0 +1,11 @@
+case_id	workflow	n	np1	np2	np3	nsteps	gpus	mango_nodes	executable
+conv_N32	convergence	32	2	2	2	100	8	1	heat3d_N32_np2x2x2_s100
+conv_N64	convergence	64	2	2	2	100	8	1	heat3d_N64_np2x2x2_s100
+conv_N128	convergence	128	2	2	2	100	8	1	heat3d_N128_np2x2x2_s100
+conv_N256	convergence	256	2	2	2	100	8	1	heat3d_N256_np2x2x2_s100
+conv_N512	convergence	512	2	2	2	100	8	1	heat3d_N512_np2x2x2_s100
+conv_N1024	convergence	1024	2	2	2	100	8	1	heat3d_N1024_np2x2x2_s100
+scale_P8	scaling	1024	2	2	2	100	8	1	heat3d_N1024_np2x2x2_s100
+scale_P16	scaling	1024	2	2	4	100	16	2	heat3d_N1024_np2x2x4_s100
+scale_P32	scaling	1024	2	4	4	100	32	4	heat3d_N1024_np2x4x4_s100
+scale_P64	scaling	1024	4	4	4	100	64	8	heat3d_N1024_np4x4x4_s100
