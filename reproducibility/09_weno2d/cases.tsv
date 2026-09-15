@@ -1,0 +1,5 @@
+case_id	cfl_nominal	nsteps	nx	ny	npx	npy	gpus
+cfl1p0	1.0	1621	516	516	2	2	4
+cfl1p5	1.5	1080	516	516	2	2	4
+cfl2p0	2.0	810	516	516	2	2	4
+
